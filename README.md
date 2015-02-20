@@ -1,10 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the application up and running.
-
 ## This particular README is for project Bloccit: a Reddit replica to teach the fundamentals of web development and Rails.
 
 Made with my mentor at [Bloc](http://bloc.io).
+
+The heroku approved app name is mezzi-bloccit.
+The heroku link is at [mezzi-bloccit](https://mezzi-bloccit.herokuapp.com/).
 
 Things you may want to cover:
 
