@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+# Bundle twitter-bootstrap-sass
+gem 'twitter-bootstrap-rails', '~> 3.2.1.rc1'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3' (removed for basic rails app project)
  group :production do
