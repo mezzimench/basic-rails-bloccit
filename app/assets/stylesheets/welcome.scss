@@ -4,6 +4,24 @@
 h1 {
   color:  red;
 }
+.social-btn {
+  background: gold;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  border: 1px solid gold;
+  margin: 15px 0 0;
+  padding: 25px;
+  border-radius: 5px;
+  display: inline-block;
+
+  &:hover {
+    text-decoration: none;
+    background: black;
+    color: white;
+  }
+
+}
 p#index-title {
     text-align: center;
     font-size: 15px;
