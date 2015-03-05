@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Bundle twitter-bootstrap-sass
 gem 'bootstrap-sass'
+# Add pry-rails to Gemfile
+gem 'pry-rails', :group => :development
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3' (removed for basic rails app project)
  group :production do
@@ -26,6 +28,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# Use faker
+gem 'faker', '~> 1.4.3'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
