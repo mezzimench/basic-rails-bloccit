@@ -17,9 +17,19 @@ posts = Post.all
     )
 end
 
+#Create Advertisements
+15.times do
+    Advertisement.create!(
+    title: Faker::Hacker.say_something_smart, 
+    copy: Faker::Lorem.sentence(3, true),
+    price: Faker::Commerce.price
+    )
+end
+
 puts "Seed finished"
 puts "#{Post.count} posts created"
 puts "#{Comment.count} comments created"
+puts "#{Advertisement.count} advertisements created"
 
 #This is an update to complete the seed-data assignment:)
 
