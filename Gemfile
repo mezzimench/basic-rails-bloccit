@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+# Use Gem Devise for user authentication
+gem 'devise', '~> 3.4.1'
 # Bundle twitter-bootstrap-sass
 gem 'bootstrap-sass'
 # Add pry-rails to Gemfile
