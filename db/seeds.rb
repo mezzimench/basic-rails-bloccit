@@ -1,5 +1,8 @@
 require 'faker'
 
+# Post.delete_all
+# Comment.delete_all
+
 #Create Posts
 50.times do 
   Post.create!(
@@ -25,6 +28,15 @@ end
     price: Faker::Commerce.price
     )
 end
+
+post = Post.where(title: "My post")
+unless post.any?
+  Post.create!(
+      title: "My post",
+      body:   "My body"
+  )  
+end
+
 
 puts "Seed finished"
 puts "#{Post.count} posts created"
