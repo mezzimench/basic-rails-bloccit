@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Use Gem Devise for user authentication
 gem 'devise', '~> 3.4.1'
+# Use Figaro Gem to get environment variables
+gem 'figaro', '~> 1.1.0'
 # Bundle twitter-bootstrap-sass
 gem 'bootstrap-sass'
 # Add pry-rails to Gemfile
@@ -51,6 +53,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # Use ‘psych’
+  gem 'psych'
+
+  # Use ‘sick’ when psych.rb bugs out
+  gem 'syck', '~> 1.0.5'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
