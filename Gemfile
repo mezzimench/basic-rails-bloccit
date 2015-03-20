@@ -55,9 +55,6 @@ group :development, :test do
 gem 'byebug'
 # Use ‘psych’
 gem 'psych'
-#
-# Use Pundit
-gem 'pundit', '~> 0.3.0'
 
 # Use ‘sick’ when psych.rb bugs out
   gem 'syck', '~> 1.0.5'

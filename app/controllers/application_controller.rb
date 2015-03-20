@@ -1,7 +1,5 @@
 class ApplicationController < ActionController::Base
-  include Pundit
-  protect_from_forgery
-end
+  
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
@@ -15,9 +13,9 @@ end
     
     
 
-    protected
+  protected
 
-    def configure_permitted_parameters
-      devise_parameter_sanitizer.for(:sign_up) << :name
-    end
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.for(:sign_up) << :name
+  end
 end

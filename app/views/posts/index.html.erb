@@ -4,7 +4,14 @@
     <div class="media-body">
       <h4 class="media-heading">
         <%= link_to post.title, post %>
-      </h4>
+          </h4>
+            <small>
+            <% if post.user %>
+         submitted <%= time_ago_in_words(post.created_at) %> ago by <%= post.user.name %>
+         <%end%>
+         <br/>
+         <%= post.comments.count %> Comments
+       </small>
     </div>
   </div>
 <%end%>

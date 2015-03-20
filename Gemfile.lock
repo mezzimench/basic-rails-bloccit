@@ -108,8 +108,6 @@ GEM
     pry-rails (0.3.3)
       pry (>= 0.9.10)
     psych (2.0.8)
-    pundit (0.3.0)
-      activesupport (>= 3.0.0)
     rack (1.6.0)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -208,7 +206,6 @@ DEPENDENCIES
   pg
   pry-rails
   psych
-  pundit (~> 0.3.0)
   rails (= 4.2.0)
   rails-erd (~> 1.3.0)
   rails_12factor
